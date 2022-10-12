@@ -19,8 +19,8 @@
    
 
 
-*{
-    font-family: 'Nunito', sans-serif;
+*{font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    /* font-family: 'Nunito', sans-serif; */
     margin:0; padding:0;
     box-sizing: border-box;
     text-decoration: none;
@@ -58,7 +58,8 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    min-height: 70vh;
     padding:1rem;
 }
 
@@ -189,15 +190,18 @@ header .navbar ul li a:hover{
 }
 .home p{
     text-transform: none;
-    font-size:2rem;
     color:#eee;
+    font-size:1.7rem;
+    font-style: italic;
     text-align: justify;
     padding: 1rem 0;
 }
 .info p{
-    /* border: 4px solid red; */
-    font-size:2rem;
-    color:#eee;
+
+    
+    font-size:1.7rem;
+    font-style: italic;
+    color:var(--text-black-300);
     text-align: justify;
     /* padding: 1rem 0; */
 }
@@ -418,7 +422,8 @@ header .navbar ul li a:hover{
 /* my projects end */
 .contact .row{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
 }
